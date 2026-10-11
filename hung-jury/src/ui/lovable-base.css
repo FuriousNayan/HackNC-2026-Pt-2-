@@ -1,0 +1,78 @@
+/* Replaces what Tailwind preflight and the shadcn Button gave the Lovable design. Scoped to .lj. Imported before lovable.css. */
+.lj ul, .lj ol { list-style: none; margin: 0; padding: 0; }
+.lj img, .lj svg { display: block; max-width: 100%; vertical-align: middle; }
+.lj img { height: auto; }
+.lj .inline { display: inline; }
+.lj table { border-collapse: collapse; text-indent: 0; }
+.lj h1, .lj h2, .lj h3, .lj h4 { font-size: inherit; }
+.lj button { background: transparent; border: 0 solid; color: inherit; padding: 0; }
+.lj, .lj *, .lj ::before, .lj ::after { border-style: solid; border-width: 0; }
+.lj { min-height: 100vh; -webkit-font-smoothing: antialiased; }
+
+.lj .b {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  white-space: nowrap; border-radius: 999px; font-size: 14px; font-weight: 600;
+  height: 36px; padding: 8px 16px; cursor: pointer; transition: background .15s, opacity .15s, border-color .15s;
+  border: 1px solid transparent; background: var(--brass-500); color: var(--ink-900);
+  box-shadow: 0 1px 3px rgba(0,0,0,.25);
+}
+.lj .b:hover { opacity: .9; }
+.lj .b:focus-visible { outline: 2px solid var(--brass-500); outline-offset: 2px; }
+.lj .b:disabled { opacity: .45; cursor: not-allowed; }
+.lj .b svg { width: 16px; height: 16px; flex-shrink: 0; pointer-events: none; }
+.lj .b-ghost { background: transparent; box-shadow: none; color: inherit; }
+.lj .b-ghost:hover { background: var(--accent); color: var(--ink-900); opacity: 1; }
+.lj .b-outline { background: transparent; border-color: var(--brass-500); color: var(--ink-900); box-shadow: none; }
+.lj .b-outline:hover { background: var(--accent); opacity: 1; }
+.lj .b-guilty { background: var(--verdict-red); border-color: var(--verdict-red); color: var(--parchment-100); }
+.lj .b-innocent { background: var(--verdict-green); border-color: var(--verdict-green); color: var(--parchment-100); }
+.lj .b-reaction { background: var(--wood-900); border-color: var(--wood-700); color: var(--parchment-100); box-shadow: none; }
+.lj .b-reaction:hover { border-color: var(--brass-500); opacity: 1; }
+.lj .b-destructive { background: var(--verdict-red); color: var(--parchment-100); }
+.lj .b-sm { height: 32px; padding: 0 12px; font-size: 12px; }
+.lj .b-lg { height: 48px; padding: 0 32px; }
+.lj .b-icon { width: 36px; padding: 0; }
+
+/* mock bar extras */
+.lj .preview-controls button.b { width: auto; }
+.lj .preview-states summary { list-style: revert; }
+
+/* Simple centered pages: sign in, avatar, summons, waiting room extras */
+.lj .narrow { max-width: 520px; margin: 0 auto; padding: 40px 0 24px; }
+.lj .page-intro { text-align: center; margin-bottom: 28px; }
+.lj .page-intro h1 { font-size: 40px; line-height: 1.25; margin: 10px 0 10px; }
+.lj .page-intro h1 > span { color: var(--brass-500); }
+.lj .page-intro p { color: var(--muted-foreground); font-size: 16px; line-height: 1.65; }
+.lj .form-card { padding: 28px; display: flex; flex-direction: column; gap: 18px; }
+.lj .form-card .hint { font-size: 12px; color: var(--paper-ink-muted); font-weight: 400; margin-top: 6px; display: block; }
+.lj .form-card .hint.bad { color: var(--verdict-red); }
+.lj .form-card .b { width: 100%; height: 48px; }
+.lj .row-actions { display: flex; gap: 10px; }
+.lj .row-actions > * { flex: 1; }
+.lj .or-line { text-align: center; font-size: 11px; color: var(--paper-ink-muted); }
+.lj .summons-quote { font-family: 'Lora', serif; font-style: italic; font-size: 20px; line-height: 1.6; border-left: 3px solid var(--brass-500); padding-left: 16px; }
+.lj .invite-row { display: flex; gap: 8px; }
+.lj .invite-row input { flex: 1; }
+.lj .waiting-note { text-align: center; color: var(--muted-foreground); font-size: 13px; margin-top: 12px; }
+.lj .waiting-layout { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 24px; align-items: start; }
+.lj .invite-card { padding: 22px; display: flex; flex-direction: column; gap: 14px; }
+.lj .invite-card h2 { font-size: 20px; }
+.lj .invite-card p { font-size: 13px; color: var(--paper-ink-muted); line-height: 1.6; }
+.lj .invite-card .b { width: 100%; height: 44px; }
+.lj .mini-link { font-size: 11px; color: var(--muted-foreground); text-decoration: underline; background: none; }
+.lj .waiting-layout .courtroom { border: 2px solid var(--wood-light); border-radius: 12px; aspect-ratio: 1.7; }
+.lj .waiting-layout .judge-plaque { font-size: 8px; }
+.lj .waiting-layout .jury-front { font-size: 6px; }
+.lj .waiting-layout .arguer-table span { font-size: 11px; }
+.lj .waiting-layout .bobble-label { font-size: 11px; }
+.lj .waiting-layout .court-seal { font-size: 36px; }
+.lj .waiting-layout .court-seal span { font-size: 7px; }
+.lj .waiting-layout .gavel { font-size: 36px; }
+@media (max-width: 900px) { .lj .waiting-layout { grid-template-columns: 1fr; } }
+.lj .invite-row input { min-width: 0; }
+.lj .invite-card .invite-row .b { width: auto; height: auto; padding: 0 18px; }
+.lj .history-heading { font-size: 22px; margin: 28px 0 14px; }
+.lj .history-list { display: flex; flex-direction: column; gap: 10px; }
+.lj .history-row { padding: 16px 20px; display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.lj .chip-red { --tone-color: var(--verdict-red); }
+.lj .chip-green { --tone-color: var(--verdict-green); }

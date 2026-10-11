@@ -1,0 +1,602 @@
+[
+  {
+    "text": "Dave alleges that Maya finished his oat milk without replacing it. Both sides will have a chance to explain what happened.",
+    "kind": "quick",
+    "toneDial": 0.4
+  },
+  {
+    "text": "Dave alleges that Maya finished his oat milk without replacing it. Both sides will have a chance to explain what happened.",
+    "kind": "quick",
+    "toneDial": 0.55
+  },
+  {
+    "text": "Dave alleges that Maya finished his oat milk without replacing it. Both sides will have a chance to explain what happened.",
+    "kind": "quick",
+    "toneDial": 0.75
+  },
+  {
+    "text": "Dave alleges that Maya finished his oat milk without replacing it. Both sides will have a chance to explain what happened.",
+    "kind": "quick",
+    "toneDial": 0.9
+  },
+  {
+    "text": "The court has noted your account: “My oat milk vanished.” We will consider it alongside the other testimony.",
+    "kind": "quick",
+    "toneDial": 0.4
+  },
+  {
+    "text": "The court has noted your account: “My oat milk vanished.” We will consider it alongside the other testimony.",
+    "kind": "quick",
+    "toneDial": 0.55
+  },
+  {
+    "text": "The court has noted your account: “My oat milk vanished.” We will consider it alongside the other testimony.",
+    "kind": "quick",
+    "toneDial": 0.75
+  },
+  {
+    "text": "The court has noted your account: “My oat milk vanished.” We will consider it alongside the other testimony.",
+    "kind": "quick",
+    "toneDial": 0.9
+  },
+  {
+    "text": "The court has noted your account: “I only had a little.” We will consider it alongside the other testimony.",
+    "kind": "quick",
+    "toneDial": 0.4
+  },
+  {
+    "text": "The court has noted your account: “I only had a little.” We will consider it alongside the other testimony.",
+    "kind": "quick",
+    "toneDial": 0.55
+  },
+  {
+    "text": "The court has noted your account: “I only had a little.” We will consider it alongside the other testimony.",
+    "kind": "quick",
+    "toneDial": 0.75
+  },
+  {
+    "text": "The court has noted your account: “I only had a little.” We will consider it alongside the other testimony.",
+    "kind": "quick",
+    "toneDial": 0.9
+  },
+  {
+    "text": "You said there was half a carton left—when did you last check it?",
+    "kind": "quick",
+    "toneDial": 0.4
+  },
+  {
+    "text": "You said there was half a carton left—when did you last check it?",
+    "kind": "quick",
+    "toneDial": 0.55
+  },
+  {
+    "text": "You said there was half a carton left—when did you last check it?",
+    "kind": "quick",
+    "toneDial": 0.75
+  },
+  {
+    "text": "You said there was half a carton left—when did you last check it?",
+    "kind": "quick",
+    "toneDial": 0.9
+  },
+  {
+    "text": "The court has noted your account: “There was half a carton left when I put it in the fridge.” We will consider it alongside the other testimony.",
+    "kind": "quick",
+    "toneDial": 0.4
+  },
+  {
+    "text": "The court has noted your account: “There was half a carton left when I put it in the fridge.” We will consider it alongside the other testimony.",
+    "kind": "quick",
+    "toneDial": 0.55
+  },
+  {
+    "text": "The court has noted your account: “There was half a carton left when I put it in the fridge.” We will consider it alongside the other testimony.",
+    "kind": "quick",
+    "toneDial": 0.75
+  },
+  {
+    "text": "The court has noted your account: “There was half a carton left when I put it in the fridge.” We will consider it alongside the other testimony.",
+    "kind": "quick",
+    "toneDial": 0.9
+  },
+  {
+    "text": "You said “a little”—how much did you pour, and how much was left?",
+    "kind": "quick",
+    "toneDial": 0.4
+  },
+  {
+    "text": "You said “a little”—how much did you pour, and how much was left?",
+    "kind": "quick",
+    "toneDial": 0.55
+  },
+  {
+    "text": "You said “a little”—how much did you pour, and how much was left?",
+    "kind": "quick",
+    "toneDial": 0.75
+  },
+  {
+    "text": "You said “a little”—how much did you pour, and how much was left?",
+    "kind": "quick",
+    "toneDial": 0.9
+  },
+  {
+    "text": "The court has noted your account: “I finished the half carton and forgot to replace it.” We will consider it alongside the other testimony.",
+    "kind": "quick",
+    "toneDial": 0.4
+  },
+  {
+    "text": "The court has noted your account: “I finished the half carton and forgot to replace it.” We will consider it alongside the other testimony.",
+    "kind": "quick",
+    "toneDial": 0.55
+  },
+  {
+    "text": "The court has noted your account: “I finished the half carton and forgot to replace it.” We will consider it alongside the other testimony.",
+    "kind": "quick",
+    "toneDial": 0.75
+  },
+  {
+    "text": "The court has noted your account: “I finished the half carton and forgot to replace it.” We will consider it alongside the other testimony.",
+    "kind": "quick",
+    "toneDial": 0.9
+  },
+  {
+    "text": "The court has received your closing statement.",
+    "kind": "quick",
+    "toneDial": 0.4
+  },
+  {
+    "text": "The court has received your closing statement.",
+    "kind": "quick",
+    "toneDial": 0.55
+  },
+  {
+    "text": "The court has received your closing statement.",
+    "kind": "quick",
+    "toneDial": 0.75
+  },
+  {
+    "text": "The court has received your closing statement.",
+    "kind": "quick",
+    "toneDial": 0.9
+  },
+  {
+    "text": "The defendant acknowledged the disputed behavior and offered to put it right. The ruling is guilty, with the agreed remedy. This follows the replacement principle in Dave v. The Missing Pizza.",
+    "kind": "verdict",
+    "toneDial": 0.4
+  },
+  {
+    "text": "The defendant acknowledged the disputed behavior and offered to put it right. The ruling is guilty, with the agreed remedy. This follows the replacement principle in Dave v. The Missing Pizza.",
+    "kind": "verdict",
+    "toneDial": 0.55
+  },
+  {
+    "text": "The defendant acknowledged the disputed behavior and offered to put it right. The ruling is guilty, with the agreed remedy. This follows the replacement principle in Dave v. The Missing Pizza.",
+    "kind": "verdict",
+    "toneDial": 0.75
+  },
+  {
+    "text": "The defendant acknowledged the disputed behavior and offered to put it right. The ruling is guilty, with the agreed remedy. This follows the replacement principle in Dave v. The Missing Pizza.",
+    "kind": "verdict",
+    "toneDial": 0.9
+  },
+  {
+    "text": "Order in the court. Dave brings a breakfast dispute against Maya, and the court will hear both sides before reaching a ruling.",
+    "kind": "quick",
+    "toneDial": 0.4
+  },
+  {
+    "text": "Order in the court. Dave brings a breakfast dispute against Maya, and the court will hear both sides before reaching a ruling.",
+    "kind": "quick",
+    "toneDial": 0.55
+  },
+  {
+    "text": "Order in the court. Dave brings a breakfast dispute against Maya, and the court will hear both sides before reaching a ruling.",
+    "kind": "quick",
+    "toneDial": 0.75
+  },
+  {
+    "text": "Order in the court. Dave brings a breakfast dispute against Maya, and the court will hear both sides before reaching a ruling.",
+    "kind": "quick",
+    "toneDial": 0.9
+  },
+  {
+    "text": "The court notes “My oat milk vanished.” A little clarity may do more than a lot of courtroom theater.",
+    "kind": "quick",
+    "toneDial": 0.4
+  },
+  {
+    "text": "The court notes “My oat milk vanished.” A little clarity may do more than a lot of courtroom theater.",
+    "kind": "quick",
+    "toneDial": 0.55
+  },
+  {
+    "text": "The court notes “My oat milk vanished.” A little clarity may do more than a lot of courtroom theater.",
+    "kind": "quick",
+    "toneDial": 0.75
+  },
+  {
+    "text": "The court notes “My oat milk vanished.” A little clarity may do more than a lot of courtroom theater.",
+    "kind": "quick",
+    "toneDial": 0.9
+  },
+  {
+    "text": "The court notes “I only had a little.” A little clarity may do more than a lot of courtroom theater.",
+    "kind": "quick",
+    "toneDial": 0.4
+  },
+  {
+    "text": "The court notes “I only had a little.” A little clarity may do more than a lot of courtroom theater.",
+    "kind": "quick",
+    "toneDial": 0.55
+  },
+  {
+    "text": "The court notes “I only had a little.” A little clarity may do more than a lot of courtroom theater.",
+    "kind": "quick",
+    "toneDial": 0.75
+  },
+  {
+    "text": "The court notes “I only had a little.” A little clarity may do more than a lot of courtroom theater.",
+    "kind": "quick",
+    "toneDial": 0.9
+  },
+  {
+    "text": "The court notes “There was half a carton left when I put it in the fridge.” A little clarity may do more than a lot of courtroom theater.",
+    "kind": "quick",
+    "toneDial": 0.4
+  },
+  {
+    "text": "The court notes “There was half a carton left when I put it in the fridge.” A little clarity may do more than a lot of courtroom theater.",
+    "kind": "quick",
+    "toneDial": 0.55
+  },
+  {
+    "text": "The court notes “There was half a carton left when I put it in the fridge.” A little clarity may do more than a lot of courtroom theater.",
+    "kind": "quick",
+    "toneDial": 0.75
+  },
+  {
+    "text": "The court notes “There was half a carton left when I put it in the fridge.” A little clarity may do more than a lot of courtroom theater.",
+    "kind": "quick",
+    "toneDial": 0.9
+  },
+  {
+    "text": "The court notes “I finished the half carton and forgot to replace it.” A little clarity may do more than a lot of courtroom theater.",
+    "kind": "quick",
+    "toneDial": 0.4
+  },
+  {
+    "text": "The court notes “I finished the half carton and forgot to replace it.” A little clarity may do more than a lot of courtroom theater.",
+    "kind": "quick",
+    "toneDial": 0.55
+  },
+  {
+    "text": "The court notes “I finished the half carton and forgot to replace it.” A little clarity may do more than a lot of courtroom theater.",
+    "kind": "quick",
+    "toneDial": 0.75
+  },
+  {
+    "text": "The court notes “I finished the half carton and forgot to replace it.” A little clarity may do more than a lot of courtroom theater.",
+    "kind": "quick",
+    "toneDial": 0.9
+  },
+  {
+    "text": "The court finds the defendant guilty on their own account. The remedy is simple: put it right as agreed. This follows the replacement principle in Dave v. The Missing Pizza.",
+    "kind": "verdict",
+    "toneDial": 0.4
+  },
+  {
+    "text": "The court finds the defendant guilty on their own account. The remedy is simple: put it right as agreed. This follows the replacement principle in Dave v. The Missing Pizza.",
+    "kind": "verdict",
+    "toneDial": 0.55
+  },
+  {
+    "text": "The court finds the defendant guilty on their own account. The remedy is simple: put it right as agreed. This follows the replacement principle in Dave v. The Missing Pizza.",
+    "kind": "verdict",
+    "toneDial": 0.75
+  },
+  {
+    "text": "The court finds the defendant guilty on their own account. The remedy is simple: put it right as agreed. This follows the replacement principle in Dave v. The Missing Pizza.",
+    "kind": "verdict",
+    "toneDial": 0.9
+  },
+  {
+    "text": "“My oat milk vanished”—the court invokes the ancient doctrine of Please Be Specific. Both accounts will be considered.",
+    "kind": "quick",
+    "toneDial": 0.4
+  },
+  {
+    "text": "“My oat milk vanished”—the court invokes the ancient doctrine of Please Be Specific. Both accounts will be considered.",
+    "kind": "quick",
+    "toneDial": 0.55
+  },
+  {
+    "text": "“My oat milk vanished”—the court invokes the ancient doctrine of Please Be Specific. Both accounts will be considered.",
+    "kind": "quick",
+    "toneDial": 0.75
+  },
+  {
+    "text": "“My oat milk vanished”—the court invokes the ancient doctrine of Please Be Specific. Both accounts will be considered.",
+    "kind": "quick",
+    "toneDial": 0.9
+  },
+  {
+    "text": "“I only had a little”—the court invokes the ancient doctrine of Please Be Specific. Both accounts will be considered.",
+    "kind": "quick",
+    "toneDial": 0.4
+  },
+  {
+    "text": "“I only had a little”—the court invokes the ancient doctrine of Please Be Specific. Both accounts will be considered.",
+    "kind": "quick",
+    "toneDial": 0.55
+  },
+  {
+    "text": "“I only had a little”—the court invokes the ancient doctrine of Please Be Specific. Both accounts will be considered.",
+    "kind": "quick",
+    "toneDial": 0.75
+  },
+  {
+    "text": "“I only had a little”—the court invokes the ancient doctrine of Please Be Specific. Both accounts will be considered.",
+    "kind": "quick",
+    "toneDial": 0.9
+  },
+  {
+    "text": "“There was half a carton left when I put it in the fridge”—the court invokes the ancient doctrine of Please Be Specific. Both accounts will be considered.",
+    "kind": "quick",
+    "toneDial": 0.4
+  },
+  {
+    "text": "“There was half a carton left when I put it in the fridge”—the court invokes the ancient doctrine of Please Be Specific. Both accounts will be considered.",
+    "kind": "quick",
+    "toneDial": 0.55
+  },
+  {
+    "text": "“There was half a carton left when I put it in the fridge”—the court invokes the ancient doctrine of Please Be Specific. Both accounts will be considered.",
+    "kind": "quick",
+    "toneDial": 0.75
+  },
+  {
+    "text": "“There was half a carton left when I put it in the fridge”—the court invokes the ancient doctrine of Please Be Specific. Both accounts will be considered.",
+    "kind": "quick",
+    "toneDial": 0.9
+  },
+  {
+    "text": "“I finished the half carton and forgot to replace it”—the court invokes the ancient doctrine of Please Be Specific. Both accounts will be considered.",
+    "kind": "quick",
+    "toneDial": 0.4
+  },
+  {
+    "text": "“I finished the half carton and forgot to replace it”—the court invokes the ancient doctrine of Please Be Specific. Both accounts will be considered.",
+    "kind": "quick",
+    "toneDial": 0.55
+  },
+  {
+    "text": "“I finished the half carton and forgot to replace it”—the court invokes the ancient doctrine of Please Be Specific. Both accounts will be considered.",
+    "kind": "quick",
+    "toneDial": 0.75
+  },
+  {
+    "text": "“I finished the half carton and forgot to replace it”—the court invokes the ancient doctrine of Please Be Specific. Both accounts will be considered.",
+    "kind": "quick",
+    "toneDial": 0.9
+  },
+  {
+    "text": "The doctrine of Replaceus Whatyouused applies. Guilty, with a modest remedy and no further kitchen theatrics. This follows the replacement principle in Dave v. The Missing Pizza.",
+    "kind": "verdict",
+    "toneDial": 0.4
+  },
+  {
+    "text": "The doctrine of Replaceus Whatyouused applies. Guilty, with a modest remedy and no further kitchen theatrics. This follows the replacement principle in Dave v. The Missing Pizza.",
+    "kind": "verdict",
+    "toneDial": 0.55
+  },
+  {
+    "text": "The doctrine of Replaceus Whatyouused applies. Guilty, with a modest remedy and no further kitchen theatrics. This follows the replacement principle in Dave v. The Missing Pizza.",
+    "kind": "verdict",
+    "toneDial": 0.75
+  },
+  {
+    "text": "The doctrine of Replaceus Whatyouused applies. Guilty, with a modest remedy and no further kitchen theatrics. This follows the replacement principle in Dave v. The Missing Pizza.",
+    "kind": "verdict",
+    "toneDial": 0.9
+  },
+  {
+    "text": "Order in the Breakfast Division! Dave brings a charge of oat milk disappearance against Maya, and both sides will be heard before this court spills anything further.",
+    "kind": "quick",
+    "toneDial": 0.4
+  },
+  {
+    "text": "Order in the Breakfast Division! Dave brings a charge of oat milk disappearance against Maya, and both sides will be heard before this court spills anything further.",
+    "kind": "quick",
+    "toneDial": 0.55
+  },
+  {
+    "text": "Order in the Breakfast Division! Dave brings a charge of oat milk disappearance against Maya, and both sides will be heard before this court spills anything further.",
+    "kind": "quick",
+    "toneDial": 0.75
+  },
+  {
+    "text": "Order in the Breakfast Division! Dave brings a charge of oat milk disappearance against Maya, and both sides will be heard before this court spills anything further.",
+    "kind": "quick",
+    "toneDial": 0.9
+  },
+  {
+    "text": "“My oat milk vanished”—a dramatic development in the Breakfast Division! The court will inspect the facts before awarding anyone a cereal crown.",
+    "kind": "quick",
+    "toneDial": 0.4
+  },
+  {
+    "text": "“My oat milk vanished”—a dramatic development in the Breakfast Division! The court will inspect the facts before awarding anyone a cereal crown.",
+    "kind": "quick",
+    "toneDial": 0.55
+  },
+  {
+    "text": "“My oat milk vanished”—a dramatic development in the Breakfast Division! The court will inspect the facts before awarding anyone a cereal crown.",
+    "kind": "quick",
+    "toneDial": 0.75
+  },
+  {
+    "text": "“My oat milk vanished”—a dramatic development in the Breakfast Division! The court will inspect the facts before awarding anyone a cereal crown.",
+    "kind": "quick",
+    "toneDial": 0.9
+  },
+  {
+    "text": "“I only had a little”—a dramatic development in the Breakfast Division! The court will inspect the facts before awarding anyone a cereal crown.",
+    "kind": "quick",
+    "toneDial": 0.4
+  },
+  {
+    "text": "“I only had a little”—a dramatic development in the Breakfast Division! The court will inspect the facts before awarding anyone a cereal crown.",
+    "kind": "quick",
+    "toneDial": 0.55
+  },
+  {
+    "text": "“I only had a little”—a dramatic development in the Breakfast Division! The court will inspect the facts before awarding anyone a cereal crown.",
+    "kind": "quick",
+    "toneDial": 0.75
+  },
+  {
+    "text": "“I only had a little”—a dramatic development in the Breakfast Division! The court will inspect the facts before awarding anyone a cereal crown.",
+    "kind": "quick",
+    "toneDial": 0.9
+  },
+  {
+    "text": "“There was half a carton left when I put it in the fridge”—a dramatic development in the Breakfast Division! The court will inspect the facts before awarding anyone a cereal crown.",
+    "kind": "quick",
+    "toneDial": 0.4
+  },
+  {
+    "text": "“There was half a carton left when I put it in the fridge”—a dramatic development in the Breakfast Division! The court will inspect the facts before awarding anyone a cereal crown.",
+    "kind": "quick",
+    "toneDial": 0.55
+  },
+  {
+    "text": "“There was half a carton left when I put it in the fridge”—a dramatic development in the Breakfast Division! The court will inspect the facts before awarding anyone a cereal crown.",
+    "kind": "quick",
+    "toneDial": 0.75
+  },
+  {
+    "text": "“There was half a carton left when I put it in the fridge”—a dramatic development in the Breakfast Division! The court will inspect the facts before awarding anyone a cereal crown.",
+    "kind": "quick",
+    "toneDial": 0.9
+  },
+  {
+    "text": "“I finished the half carton and forgot to replace it”—a dramatic development in the Breakfast Division! The court will inspect the facts before awarding anyone a cereal crown.",
+    "kind": "quick",
+    "toneDial": 0.4
+  },
+  {
+    "text": "“I finished the half carton and forgot to replace it”—a dramatic development in the Breakfast Division! The court will inspect the facts before awarding anyone a cereal crown.",
+    "kind": "quick",
+    "toneDial": 0.55
+  },
+  {
+    "text": "“I finished the half carton and forgot to replace it”—a dramatic development in the Breakfast Division! The court will inspect the facts before awarding anyone a cereal crown.",
+    "kind": "quick",
+    "toneDial": 0.75
+  },
+  {
+    "text": "“I finished the half carton and forgot to replace it”—a dramatic development in the Breakfast Division! The court will inspect the facts before awarding anyone a cereal crown.",
+    "kind": "quick",
+    "toneDial": 0.9
+  },
+  {
+    "text": "Under the entirely fictional Breakfast Restoration Act, this court finds the defendant guilty! Restore what was taken and let the kitchen return to peace. This follows the replacement principle in Dave v. The Missing Pizza.",
+    "kind": "verdict",
+    "toneDial": 0.4
+  },
+  {
+    "text": "Under the entirely fictional Breakfast Restoration Act, this court finds the defendant guilty! Restore what was taken and let the kitchen return to peace. This follows the replacement principle in Dave v. The Missing Pizza.",
+    "kind": "verdict",
+    "toneDial": 0.55
+  },
+  {
+    "text": "Under the entirely fictional Breakfast Restoration Act, this court finds the defendant guilty! Restore what was taken and let the kitchen return to peace. This follows the replacement principle in Dave v. The Missing Pizza.",
+    "kind": "verdict",
+    "toneDial": 0.75
+  },
+  {
+    "text": "Under the entirely fictional Breakfast Restoration Act, this court finds the defendant guilty! Restore what was taken and let the kitchen return to peace. This follows the replacement principle in Dave v. The Missing Pizza.",
+    "kind": "verdict",
+    "toneDial": 0.9
+  },
+  {
+    "text": "Order in the court. Each side will have a chance to explain this dispute.",
+    "kind": "quick",
+    "toneDial": 0.4
+  },
+  {
+    "text": "Order in the court. Each side will have a chance to explain this dispute.",
+    "kind": "quick",
+    "toneDial": 0.55
+  },
+  {
+    "text": "Order in the court. Each side will have a chance to explain this dispute.",
+    "kind": "quick",
+    "toneDial": 0.75
+  },
+  {
+    "text": "Order in the court. Each side will have a chance to explain this dispute.",
+    "kind": "quick",
+    "toneDial": 0.9
+  },
+  {
+    "text": "The court has received this account and will consider both sides.",
+    "kind": "quick",
+    "toneDial": 0.4
+  },
+  {
+    "text": "The court has received this account and will consider both sides.",
+    "kind": "quick",
+    "toneDial": 0.55
+  },
+  {
+    "text": "The court has received this account and will consider both sides.",
+    "kind": "quick",
+    "toneDial": 0.75
+  },
+  {
+    "text": "The court has received this account and will consider both sides.",
+    "kind": "quick",
+    "toneDial": 0.9
+  },
+  {
+    "text": "What happened, and which details can you confirm?",
+    "kind": "quick",
+    "toneDial": 0.4
+  },
+  {
+    "text": "What happened, and which details can you confirm?",
+    "kind": "quick",
+    "toneDial": 0.55
+  },
+  {
+    "text": "What happened, and which details can you confirm?",
+    "kind": "quick",
+    "toneDial": 0.75
+  },
+  {
+    "text": "What happened, and which details can you confirm?",
+    "kind": "quick",
+    "toneDial": 0.9
+  },
+  {
+    "text": "The court could not complete its review. No finding of guilt will be made from an unavailable judge.",
+    "kind": "verdict",
+    "toneDial": 0.4
+  },
+  {
+    "text": "The court could not complete its review. No finding of guilt will be made from an unavailable judge.",
+    "kind": "verdict",
+    "toneDial": 0.55
+  },
+  {
+    "text": "The court could not complete its review. No finding of guilt will be made from an unavailable judge.",
+    "kind": "verdict",
+    "toneDial": 0.75
+  },
+  {
+    "text": "The court could not complete its review. No finding of guilt will be made from an unavailable judge.",
+    "kind": "verdict",
+    "toneDial": 0.9
+  }
+]

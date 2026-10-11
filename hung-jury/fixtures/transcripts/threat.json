@@ -1,0 +1,23 @@
+{
+  "caseTitle": "A dispute that needs support",
+  "grievance": "An argument has become threatening.",
+  "phase": "statements",
+  "transcript": [
+    {
+      "id": "m-1",
+      "caseId": "fixture-case",
+      "authorHandle": "dave",
+      "role": "plaintiff",
+      "kind": "statement",
+      "text": "I'll make him regret this. I will hurt him.",
+      "createdAt": "2026-10-10T14:00:00Z"
+    }
+  ],
+  "toneDial": 0.5,
+  "precedents": [],
+  "guiltyCounts": {},
+  "parties": {
+    "plaintiff": "dave",
+    "defendant": "maya"
+  }
+}

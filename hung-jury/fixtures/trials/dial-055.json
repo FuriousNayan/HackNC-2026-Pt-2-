@@ -1,0 +1,374 @@
+[
+  {
+    "atMs": 0,
+    "event": {
+      "type": "state",
+      "phase": "waiting",
+      "activeRole": null,
+      "timerEndsAt": null
+    }
+  },
+  {
+    "atMs": 0,
+    "event": {
+      "type": "jury",
+      "guiltyPct": 0,
+      "notGuiltyPct": 0,
+      "viewers": 0,
+      "jurors": []
+    }
+  },
+  {
+    "atMs": 600,
+    "event": {
+      "type": "jury",
+      "guiltyPct": 0,
+      "notGuiltyPct": 0,
+      "viewers": 3,
+      "jurors": [
+        {
+          "handle": "jo",
+          "headImageUrl": "/art/avatars/a3.svg"
+        }
+      ]
+    }
+  },
+  {
+    "atMs": 1200,
+    "event": {
+      "type": "jury",
+      "guiltyPct": 0,
+      "notGuiltyPct": 0,
+      "viewers": 6,
+      "jurors": [
+        {
+          "handle": "jo",
+          "headImageUrl": "/art/avatars/a3.svg"
+        },
+        {
+          "handle": "sam",
+          "headImageUrl": "/art/avatars/a4.svg"
+        },
+        {
+          "handle": "lee",
+          "headImageUrl": "/art/avatars/a5.svg"
+        }
+      ]
+    }
+  },
+  {
+    "atMs": 2000,
+    "event": {
+      "type": "state",
+      "phase": "opening",
+      "activeRole": "judge",
+      "timerEndsAt": "+20000"
+    }
+  },
+  {
+    "atMs": 2200,
+    "event": {
+      "type": "judge",
+      "speech": "Order in the court. We are gathered over a carton of oat milk, which is apparently now a matter of national importance.",
+      "face": "stern",
+      "sfx": "gavel",
+      "toneDial": 0.5,
+      "audioUrl": null,
+      "verdict": null
+    }
+  },
+  {
+    "atMs": 6000,
+    "event": {
+      "type": "state",
+      "phase": "statements",
+      "activeRole": "plaintiff",
+      "timerEndsAt": "+60000"
+    }
+  },
+  {
+    "atMs": 7500,
+    "event": {
+      "type": "message",
+      "message": {
+        "id": "m1",
+        "caseId": "demo-oat-milk",
+        "authorHandle": "dave",
+        "role": "plaintiff",
+        "kind": "statement",
+        "text": "I bought the oat milk on Sunday and it was gone by Monday. Nobody told me, nobody replaced it, and I had dry cereal.",
+        "createdAt": "2026-10-10T19:00:01.000Z"
+      }
+    }
+  },
+  {
+    "atMs": 8500,
+    "event": {
+      "type": "judge",
+      "speech": "Let the record show the carton was empty and the fridge was not told. The court raises an eyebrow.",
+      "face": "amused",
+      "sfx": "none",
+      "toneDial": 0.52,
+      "audioUrl": null,
+      "verdict": null
+    }
+  },
+  {
+    "atMs": 11000,
+    "event": {
+      "type": "state",
+      "phase": "statements",
+      "activeRole": "defendant",
+      "timerEndsAt": "+60000"
+    }
+  },
+  {
+    "atMs": 12500,
+    "event": {
+      "type": "message",
+      "message": {
+        "id": "m2",
+        "caseId": "demo-oat-milk",
+        "authorHandle": "maya",
+        "role": "defendant",
+        "kind": "statement",
+        "text": "I used a little. I bought a new one recently, it is in the other fridge. Dave never checks the other fridge.",
+        "createdAt": "2026-10-10T19:00:02.000Z"
+      }
+    }
+  },
+  {
+    "atMs": 13500,
+    "event": {
+      "type": "judge",
+      "speech": "The defendant claims there is an \"other fridge.\" The court is intrigued and slightly alarmed.",
+      "face": "shocked",
+      "sfx": "gasp",
+      "toneDial": 0.52,
+      "audioUrl": null,
+      "verdict": null
+    }
+  },
+  {
+    "atMs": 16000,
+    "event": {
+      "type": "state",
+      "phase": "cross",
+      "activeRole": "judge",
+      "timerEndsAt": null
+    }
+  },
+  {
+    "atMs": 16200,
+    "event": {
+      "type": "judge",
+      "speech": "You said you bought it \"recently.\" How many days is recently, defendant?",
+      "face": "stern",
+      "sfx": "none",
+      "toneDial": 0.55,
+      "audioUrl": null,
+      "verdict": null
+    }
+  },
+  {
+    "atMs": 16400,
+    "event": {
+      "type": "state",
+      "phase": "cross",
+      "activeRole": "defendant",
+      "timerEndsAt": "+45000"
+    }
+  },
+  {
+    "atMs": 18500,
+    "event": {
+      "type": "message",
+      "message": {
+        "id": "m3",
+        "caseId": "demo-oat-milk",
+        "authorHandle": "maya",
+        "role": "defendant",
+        "kind": "answer",
+        "text": "Tuesday. I do not have the receipt, but I swear it exists.",
+        "createdAt": "2026-10-10T19:00:03.000Z"
+      }
+    }
+  },
+  {
+    "atMs": 19500,
+    "event": {
+      "type": "judge",
+      "speech": "Tuesday. With no receipt. The court finds this suspiciously unverifiable.",
+      "face": "amused",
+      "sfx": "gasp",
+      "toneDial": 0.55,
+      "audioUrl": null,
+      "verdict": null
+    }
+  },
+  {
+    "atMs": 22000,
+    "event": {
+      "type": "state",
+      "phase": "rebuttal",
+      "activeRole": "plaintiff",
+      "timerEndsAt": "+30000"
+    }
+  },
+  {
+    "atMs": 23500,
+    "event": {
+      "type": "message",
+      "message": {
+        "id": "m4",
+        "caseId": "demo-oat-milk",
+        "authorHandle": "dave",
+        "role": "plaintiff",
+        "kind": "statement",
+        "text": "There is no other fridge. I checked. I checked twice.",
+        "createdAt": "2026-10-10T19:00:04.000Z"
+      }
+    }
+  },
+  {
+    "atMs": 25000,
+    "event": {
+      "type": "state",
+      "phase": "closing",
+      "activeRole": "plaintiff",
+      "timerEndsAt": "+30000"
+    }
+  },
+  {
+    "atMs": 26000,
+    "event": {
+      "type": "message",
+      "message": {
+        "id": "m5",
+        "caseId": "demo-oat-milk",
+        "authorHandle": "dave",
+        "role": "plaintiff",
+        "kind": "closing",
+        "text": "Justice for the cereal.",
+        "createdAt": "2026-10-10T19:00:05.000Z"
+      }
+    }
+  },
+  {
+    "atMs": 27500,
+    "event": {
+      "type": "state",
+      "phase": "closing",
+      "activeRole": "defendant",
+      "timerEndsAt": "+30000"
+    }
+  },
+  {
+    "atMs": 28500,
+    "event": {
+      "type": "message",
+      "message": {
+        "id": "m6",
+        "caseId": "demo-oat-milk",
+        "authorHandle": "maya",
+        "role": "defendant",
+        "kind": "closing",
+        "text": "I regret nothing about the other fridge.",
+        "createdAt": "2026-10-10T19:00:06.000Z"
+      }
+    }
+  },
+  {
+    "atMs": 31000,
+    "event": {
+      "type": "state",
+      "phase": "verdict",
+      "activeRole": "judge",
+      "timerEndsAt": "+15000"
+    }
+  },
+  {
+    "atMs": 31500,
+    "event": {
+      "type": "jury",
+      "guiltyPct": 40,
+      "notGuiltyPct": 60,
+      "viewers": 8,
+      "jurors": [
+        {
+          "handle": "jo",
+          "headImageUrl": "/art/avatars/a3.svg"
+        },
+        {
+          "handle": "sam",
+          "headImageUrl": "/art/avatars/a4.svg"
+        },
+        {
+          "handle": "lee",
+          "headImageUrl": "/art/avatars/a5.svg"
+        },
+        {
+          "handle": "ana",
+          "headImageUrl": "/art/avatars/a6.svg"
+        }
+      ]
+    }
+  },
+  {
+    "atMs": 34000,
+    "event": {
+      "type": "jury",
+      "guiltyPct": 30,
+      "notGuiltyPct": 70,
+      "viewers": 9,
+      "jurors": [
+        {
+          "handle": "jo",
+          "headImageUrl": "/art/avatars/a3.svg"
+        },
+        {
+          "handle": "sam",
+          "headImageUrl": "/art/avatars/a4.svg"
+        },
+        {
+          "handle": "lee",
+          "headImageUrl": "/art/avatars/a5.svg"
+        },
+        {
+          "handle": "ana",
+          "headImageUrl": "/art/avatars/a6.svg"
+        }
+      ]
+    }
+  },
+  {
+    "atMs": 46000,
+    "event": {
+      "type": "judge",
+      "speech": "Guilty. The court finds the carton was finished and no replacement arrived. Sentence: one carton, and one sincere apology, by Friday.",
+      "face": "amused",
+      "sfx": "gavel",
+      "toneDial": 0.55,
+      "audioUrl": null,
+      "verdict": {
+        "ruling": "guilty",
+        "findings": [
+          "The oat milk was finished without notice.",
+          "No receipt was produced for the claimed replacement."
+        ],
+        "sentence": "One carton and one sincere apology by Friday.",
+        "headline": "The Case of the Missing Oat Milk: Guilty",
+        "cited_precedent": "Dave v. The Missing Pizza"
+      }
+    }
+  },
+  {
+    "atMs": 47000,
+    "event": {
+      "type": "state",
+      "phase": "verdict",
+      "activeRole": null,
+      "timerEndsAt": null
+    }
+  }
+]

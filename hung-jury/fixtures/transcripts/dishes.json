@@ -1,0 +1,32 @@
+{
+  "caseTitle": "The Four-Day Soak",
+  "grievance": "Maya left dishes in the shared sink for four days.",
+  "phase": "statements",
+  "transcript": [
+    {
+      "id": "m-1",
+      "caseId": "fixture-case",
+      "authorHandle": "dave",
+      "role": "plaintiff",
+      "kind": "statement",
+      "text": "These dishes have been soaking for four days. I need the sink to cook.",
+      "createdAt": "2026-10-10T14:00:00Z"
+    },
+    {
+      "id": "m-2",
+      "caseId": "fixture-case",
+      "authorHandle": "maya",
+      "role": "defendant",
+      "kind": "statement",
+      "text": "They were soaking. I left them there and I can wash them tonight.",
+      "createdAt": "2026-10-10T14:01:00Z"
+    }
+  ],
+  "toneDial": 0.5,
+  "precedents": [],
+  "guiltyCounts": {},
+  "parties": {
+    "plaintiff": "dave",
+    "defendant": "maya"
+  }
+}

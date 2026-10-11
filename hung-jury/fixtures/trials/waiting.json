@@ -1,0 +1,105 @@
+[
+  {
+    "atMs": 0,
+    "event": {
+      "type": "state",
+      "phase": "waiting",
+      "activeRole": null,
+      "timerEndsAt": null
+    }
+  },
+  {
+    "atMs": 0,
+    "event": {
+      "type": "jury",
+      "guiltyPct": 0,
+      "notGuiltyPct": 0,
+      "viewers": 0,
+      "jurors": []
+    }
+  },
+  {
+    "atMs": 1500,
+    "event": {
+      "type": "jury",
+      "guiltyPct": 0,
+      "notGuiltyPct": 0,
+      "viewers": 1,
+      "jurors": [
+        {
+          "handle": "jo",
+          "headImageUrl": "/art/avatars/a3.svg"
+        }
+      ]
+    }
+  },
+  {
+    "atMs": 3000,
+    "event": {
+      "type": "jury",
+      "guiltyPct": 0,
+      "notGuiltyPct": 0,
+      "viewers": 2,
+      "jurors": [
+        {
+          "handle": "jo",
+          "headImageUrl": "/art/avatars/a3.svg"
+        },
+        {
+          "handle": "sam",
+          "headImageUrl": "/art/avatars/a4.svg"
+        }
+      ]
+    }
+  },
+  {
+    "atMs": 4500,
+    "event": {
+      "type": "jury",
+      "guiltyPct": 0,
+      "notGuiltyPct": 0,
+      "viewers": 4,
+      "jurors": [
+        {
+          "handle": "jo",
+          "headImageUrl": "/art/avatars/a3.svg"
+        },
+        {
+          "handle": "sam",
+          "headImageUrl": "/art/avatars/a4.svg"
+        },
+        {
+          "handle": "lee",
+          "headImageUrl": "/art/avatars/a5.svg"
+        }
+      ]
+    }
+  },
+  {
+    "atMs": 6000,
+    "event": {
+      "type": "jury",
+      "guiltyPct": 0,
+      "notGuiltyPct": 0,
+      "viewers": 5,
+      "jurors": [
+        {
+          "handle": "jo",
+          "headImageUrl": "/art/avatars/a3.svg"
+        },
+        {
+          "handle": "sam",
+          "headImageUrl": "/art/avatars/a4.svg"
+        },
+        {
+          "handle": "lee",
+          "headImageUrl": "/art/avatars/a5.svg"
+        },
+        {
+          "handle": "ana",
+          "headImageUrl": "/art/avatars/a6.svg"
+        }
+      ]
+    }
+  }
+]

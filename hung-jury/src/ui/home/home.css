@@ -1,0 +1,541 @@
+/* Homepage styles. Matches the Lovable design. Classes are prefixed hj- so other pages are unaffected. */
+
+.hj-page {
+  min-height: 100vh;
+  background: var(--wood-900);
+  color: var(--parchment-100);
+}
+
+.hj-shell {
+  max-width: 1136px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+/* Header */
+.hj-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 83px;
+  border-bottom: 1px solid rgba(246, 235, 212, 0.14);
+}
+.hj-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-display);
+  font-size: 22px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--parchment-100);
+  text-decoration: none;
+}
+.hj-logo .dot {
+  color: var(--brass-500);
+}
+.hj-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 38px;
+  padding: 0 18px 0 5px;
+  border-radius: 999px;
+  border: 1px solid rgba(201, 154, 46, 0.55);
+  background: #3a2518;
+  color: var(--parchment-100);
+  font-size: 15px;
+  text-decoration: none;
+}
+.hj-user .av {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--brass-500);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hero */
+.hj-hero {
+  text-align: center;
+  padding: 44px 0 36px;
+}
+.hj-eyebrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--brass-500);
+}
+.hj-eyebrow.lines::before,
+.hj-eyebrow.lines::after {
+  content: '';
+  width: 24px;
+  height: 1px;
+  background: var(--brass-500);
+}
+.hj-title {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(56px, 8.6vw, 96px);
+  line-height: 1.05;
+  margin: 14px 0 0;
+  color: var(--parchment-100);
+}
+.hj-title .dot {
+  color: var(--brass-500);
+}
+.hj-tagline {
+  max-width: 360px;
+  margin: 18px auto 0;
+  font-size: 20px;
+  line-height: 1.5;
+  color: rgba(246, 235, 212, 0.72);
+}
+.hj-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 38px;
+  color: var(--brass-500);
+}
+.hj-divider span {
+  display: block;
+  width: 64px;
+  height: 1px;
+  background: rgba(246, 235, 212, 0.22);
+}
+
+/* Two column area */
+.hj-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.hj-card {
+  background: #f5ebd6;
+  border: 2px solid var(--brass-500);
+  border-radius: 14px;
+  color: var(--ink-900);
+}
+.hj-file {
+  padding: 34px 30px 30px;
+}
+.hj-file .hj-eyebrow {
+  justify-content: flex-start;
+  color: rgba(27, 20, 16, 0.6);
+  letter-spacing: 0.08em;
+}
+.hj-file h2 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 30px;
+  margin: 10px 0 6px;
+}
+.hj-file .sub {
+  margin: 0 0 22px;
+  font-size: 15px;
+  color: rgba(27, 20, 16, 0.65);
+}
+.hj-field {
+  display: block;
+  margin-bottom: 22px;
+}
+.hj-label {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 9px;
+}
+.hj-label small {
+  font-size: 13px;
+  font-weight: 400;
+  color: rgba(27, 20, 16, 0.6);
+}
+.hj-input,
+.hj-textarea {
+  width: 100%;
+  font-family: var(--font-body);
+  font-size: 15px;
+  color: var(--ink-900);
+  background: #faf4e7;
+  border: 1px solid #e0d1ae;
+  border-radius: 10px;
+  padding: 0 16px;
+  outline: none;
+}
+.hj-input {
+  height: 46px;
+}
+.hj-textarea {
+  height: 132px;
+  padding: 14px 16px;
+  resize: vertical;
+  display: block;
+}
+.hj-input::placeholder,
+.hj-textarea::placeholder {
+  color: #8c7b66;
+}
+.hj-input:focus,
+.hj-textarea:focus {
+  border-color: var(--brass-500);
+  box-shadow: 0 0 0 3px rgba(201, 154, 46, 0.22);
+}
+.hj-count {
+  margin-top: 8px;
+  text-align: right;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: #8c7b66;
+}
+.hj-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.hj-prefix {
+  position: relative;
+}
+.hj-prefix .at {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #8c7b66;
+  font-size: 15px;
+}
+.hj-prefix .hj-input {
+  padding-left: 34px;
+}
+.hj-note {
+  display: flex;
+  gap: 10px;
+  margin: 2px 0 20px;
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: rgba(27, 20, 16, 0.6);
+}
+.hj-note svg {
+  flex: none;
+  margin-top: 2px;
+}
+.hj-submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  height: 48px;
+  border: 0;
+  border-radius: 999px;
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 500;
+  background: var(--brass-500);
+  color: var(--ink-900);
+  cursor: pointer;
+  transition: filter 150ms ease;
+}
+.hj-submit:hover:not(:disabled) {
+  filter: brightness(1.06);
+}
+.hj-submit:disabled {
+  background: #dcc594;
+  color: #9c8a5e;
+  cursor: not-allowed;
+}
+.hj-error {
+  margin: 0 0 14px;
+  font-size: 13px;
+  color: var(--verdict-red);
+}
+
+/* Right column */
+.hj-live-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.hj-live-head .hj-eyebrow {
+  margin-top: 22px;
+  gap: 8px;
+}
+.hj-allrise {
+  text-align: right;
+}
+.hj-allrise .big {
+  font-family: var(--font-judge);
+  font-style: italic;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  color: var(--parchment-100);
+}
+.hj-allrise .small {
+  font-family: var(--font-judge);
+  font-style: italic;
+  font-size: 13px;
+  color: rgba(246, 235, 212, 0.62);
+  margin-top: 6px;
+}
+.hj-scene {
+  margin-top: 20px;
+  border: 1px solid rgba(201, 154, 46, 0.6);
+  border-radius: 10px;
+  overflow: hidden;
+  line-height: 0;
+  background: #2b1b12;
+}
+.hj-scene svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.hj-featured {
+  text-align: center;
+  margin-top: 30px;
+}
+.hj-featured h3 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.15;
+  margin: 12px 0 8px;
+  color: var(--parchment-100);
+}
+.hj-featured p {
+  margin: 0;
+  font-size: 15px;
+  color: rgba(246, 235, 212, 0.75);
+}
+.hj-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  height: 40px;
+  padding: 0 20px;
+  margin-top: 22px;
+  border: 1px solid rgba(201, 154, 46, 0.7);
+  border-radius: 999px;
+  color: var(--parchment-100);
+  font-size: 14px;
+  text-decoration: none;
+  transition: background 150ms ease;
+}
+.hj-ghost:hover {
+  background: rgba(201, 154, 46, 0.14);
+}
+.hj-featured .hj-aside {
+  margin: 24px 0 0;
+  font-family: var(--font-judge);
+  font-style: italic;
+  font-size: 13px;
+  color: rgba(246, 235, 212, 0.62);
+}
+
+/* Docket */
+.hj-docket {
+  margin-top: 58px;
+}
+.hj-docket-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hj-docket-head h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 28px;
+  color: var(--parchment-100);
+}
+.hj-green {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #3e8e5a;
+  display: inline-block;
+}
+.hj-docket-head .tag {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(246, 235, 212, 0.55);
+}
+.hj-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 26px;
+}
+.hj-case {
+  padding: 20px 22px 22px;
+  display: flex;
+  flex-direction: column;
+}
+.hj-case .top {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  letter-spacing: 0.04em;
+  color: rgba(27, 20, 16, 0.5);
+}
+.hj-case .live {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--verdict-green);
+}
+.hj-case .live i {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #3e8e5a;
+  display: block;
+}
+.hj-case .cat {
+  margin-top: 22px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(27, 20, 16, 0.65);
+}
+.hj-case h3 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.15;
+  margin: 8px 0 14px;
+  min-height: 52px;
+}
+.hj-parties {
+  font-size: 15px;
+}
+.hj-parties i {
+  font-family: var(--font-judge);
+  font-style: italic;
+  color: rgba(27, 20, 16, 0.55);
+  margin: 0 5px;
+}
+.hj-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.hj-views {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12.5px;
+  color: rgba(27, 20, 16, 0.6);
+}
+.hj-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 24px;
+  padding: 0 10px;
+  border-radius: 999px;
+  font-size: 11.5px;
+  color: rgba(27, 20, 16, 0.75);
+  background: color-mix(in srgb, var(--chip) 14%, transparent);
+  border: 1px solid color-mix(in srgb, var(--chip) 32%, transparent);
+}
+.hj-chip i {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--chip);
+  display: block;
+}
+.hj-join {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 40px;
+  margin-top: 18px;
+  border: 1.5px solid var(--brass-500);
+  border-radius: 999px;
+  color: var(--ink-900);
+  font-size: 15px;
+  text-decoration: none;
+  transition: background 150ms ease;
+}
+.hj-join:hover {
+  background: rgba(201, 154, 46, 0.16);
+}
+.hj-empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 28px 0;
+  color: rgba(246, 235, 212, 0.7);
+}
+
+/* Footer */
+.hj-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding: 28px 0 34px;
+  border-top: 1px solid rgba(246, 235, 212, 0.14);
+  font-size: 13px;
+  color: rgba(246, 235, 212, 0.6);
+}
+.hj-footer .left,
+.hj-footer a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: inherit;
+  text-decoration: none;
+}
+.hj-footer a:hover {
+  color: var(--parchment-100);
+}
+
+@media (max-width: 899px) {
+  .hj-shell {
+    padding: 0 16px;
+  }
+  .hj-main {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+  .hj-grid {
+    grid-template-columns: 1fr;
+  }
+  .hj-hero {
+    padding: 32px 0 28px;
+  }
+  .hj-tagline {
+    font-size: 18px;
+  }
+  .hj-two {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .hj-footer {
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+  }
+}

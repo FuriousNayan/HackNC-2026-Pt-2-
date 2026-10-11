@@ -1,0 +1,103 @@
+[
+  {
+    "atMs": 0,
+    "event": {
+      "type": "state",
+      "phase": "waiting",
+      "activeRole": null,
+      "timerEndsAt": null
+    }
+  },
+  {
+    "atMs": 0,
+    "event": {
+      "type": "jury",
+      "guiltyPct": 0,
+      "notGuiltyPct": 0,
+      "viewers": 2,
+      "jurors": [
+        {
+          "handle": "jo",
+          "headImageUrl": "/art/avatars/a3.svg"
+        },
+        {
+          "handle": "sam",
+          "headImageUrl": "/art/avatars/a4.svg"
+        }
+      ]
+    }
+  },
+  {
+    "atMs": 1500,
+    "event": {
+      "type": "state",
+      "phase": "opening",
+      "activeRole": "judge",
+      "timerEndsAt": "+20000"
+    }
+  },
+  {
+    "atMs": 1700,
+    "event": {
+      "type": "judge",
+      "speech": "Order in the court. We are gathered over a carton of oat milk, which is apparently now a matter of national importance.",
+      "face": "stern",
+      "sfx": "gavel",
+      "toneDial": 0.5,
+      "audioUrl": null,
+      "verdict": null
+    }
+  },
+  {
+    "atMs": 4000,
+    "event": {
+      "type": "state",
+      "phase": "statements",
+      "activeRole": "plaintiff",
+      "timerEndsAt": "+60000"
+    }
+  },
+  {
+    "atMs": 5500,
+    "event": {
+      "type": "message",
+      "message": {
+        "id": "m1",
+        "caseId": "demo-oat-milk",
+        "authorHandle": "dave",
+        "role": "plaintiff",
+        "kind": "statement",
+        "text": "She keeps texting me after I told her to stop.",
+        "createdAt": "2026-10-10T19:00:01.000Z"
+      }
+    }
+  },
+  {
+    "atMs": 6500,
+    "event": {
+      "type": "judge",
+      "speech": "The court will pause here and ask a plain question: are you safe?",
+      "face": "neutral",
+      "sfx": "none",
+      "toneDial": 0.4,
+      "audioUrl": null,
+      "verdict": null
+    }
+  },
+  {
+    "atMs": 9000,
+    "event": {
+      "type": "state",
+      "phase": "statements",
+      "activeRole": "defendant",
+      "timerEndsAt": "+60000"
+    }
+  },
+  {
+    "atMs": 10500,
+    "event": {
+      "type": "safety",
+      "reason": "threat"
+    }
+  }
+]

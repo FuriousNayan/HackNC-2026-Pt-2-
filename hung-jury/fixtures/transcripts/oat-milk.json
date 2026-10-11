@@ -1,0 +1,76 @@
+{
+  "caseTitle": "The Case of the Missing Oat Milk",
+  "grievance": "Maya finished the oat milk I bought for my coffee and did not replace it.",
+  "phase": "statements",
+  "transcript": [
+    {
+      "id": "m-1",
+      "caseId": "fixture-case",
+      "authorHandle": "dave",
+      "role": "plaintiff",
+      "kind": "statement",
+      "text": "My oat milk vanished! That carton was the emotional backbone of breakfast.",
+      "createdAt": "2026-10-10T14:00:00Z"
+    },
+    {
+      "id": "m-2",
+      "caseId": "fixture-case",
+      "authorHandle": "maya",
+      "role": "defendant",
+      "kind": "statement",
+      "text": "I only had a little. The carton was practically empty already.",
+      "createdAt": "2026-10-10T14:01:00Z"
+    },
+    {
+      "id": "m-3",
+      "caseId": "fixture-case",
+      "authorHandle": "dave",
+      "role": "plaintiff",
+      "kind": "answer",
+      "text": "There was half a carton left when I put it in the fridge.",
+      "createdAt": "2026-10-10T14:02:00Z"
+    },
+    {
+      "id": "m-4",
+      "caseId": "fixture-case",
+      "authorHandle": "maya",
+      "role": "defendant",
+      "kind": "answer",
+      "text": "I finished the half carton and forgot to replace it. I can buy the same carton today.",
+      "createdAt": "2026-10-10T14:03:00Z"
+    },
+    {
+      "id": "m-5",
+      "caseId": "fixture-case",
+      "authorHandle": "dave",
+      "role": "plaintiff",
+      "kind": "closing",
+      "text": "Replace the carton and breakfast peace will be restored.",
+      "createdAt": "2026-10-10T14:04:00Z"
+    },
+    {
+      "id": "m-6",
+      "caseId": "fixture-case",
+      "authorHandle": "maya",
+      "role": "defendant",
+      "kind": "closing",
+      "text": "I agree to replace it today.",
+      "createdAt": "2026-10-10T14:05:00Z"
+    }
+  ],
+  "toneDial": 0.5,
+  "precedents": [
+    {
+      "title": "Dave v. The Missing Pizza",
+      "plaintiff": "dave",
+      "defendant": "maya",
+      "ruling": "guilty",
+      "summary": "Maya ate Dave's labeled pizza without asking and agreed to replace it."
+    }
+  ],
+  "guiltyCounts": {},
+  "parties": {
+    "plaintiff": "dave",
+    "defendant": "maya"
+  }
+}

@@ -1,0 +1,28 @@
+/* Restyled to the Lovable look. Everything is scoped under .avatar-picker so it cannot leak. */
+.lj .avatar-picker { display: flex; flex-direction: column; gap: 18px; padding: 28px; }
+.lj .avatar-picker > p { font-size: 12px; line-height: 1.65; color: var(--paper-ink-muted); margin: 0; }
+.lj .avatar-picker [role='alert'] { color: var(--verdict-red); font-weight: 600; }
+.lj .avatar-picker [role='status'] { min-height: 0; }
+.lj .avatar-picker [role='status']:empty { display: none; }
+.lj .avatar-picker .tabs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.lj .avatar-picker .tab,
+.lj .avatar-picker .pill-btn {
+  height: 36px; border-radius: 999px; font-size: 13px; font-weight: 600;
+  border: 1px solid var(--brass-500); color: var(--ink-900); background: transparent; padding: 0 14px;
+}
+.lj .avatar-picker .tab[aria-pressed='true'] { background: var(--brass-500); }
+.lj .avatar-picker button:disabled { opacity: 0.45; cursor: not-allowed; }
+.lj .avatar-picker .avatar-stage { display: flex; justify-content: center; padding: 28px 0 10px; background: var(--wood-700); border-radius: 12px; border: 1px solid var(--wood-light); overflow: hidden; }
+.lj .avatar-picker .avatar-stage .bobblehead { width: 120px; height: 160px; }
+.lj .avatar-picker .avatar-stage .bobblehead:before { display: none; }
+.lj .avatar-picker .avatar-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.lj .avatar-picker .avatar-grid button { padding: 4px; border-radius: 16px; border: 3px solid transparent; background: var(--paper-muted); }
+.lj .avatar-picker .avatar-grid button[aria-pressed='true'] { border-color: var(--brass-500); box-shadow: 0 0 0 2px color-mix(in oklab, var(--brass-500) 30%, transparent); }
+.lj .avatar-picker .avatar-grid img { border-radius: 50%; width: 100%; }
+.lj .avatar-picker video { width: 100%; border-radius: 12px; background: var(--wood-900); }
+.lj .avatar-picker .camera-actions { display: flex; gap: 8px; margin-top: 10px; }
+.lj .avatar-picker .camera-actions button { flex: 1; }
+.lj .avatar-picker input[type='file'] { margin-top: 8px; padding: 10px; background: var(--paper-field); }
+.lj .avatar-picker .use-button { height: 48px; border-radius: 999px; background: var(--brass-500); color: var(--ink-900); font-weight: 600; font-size: 14px; box-shadow: 0 1px 3px rgba(0, 0, 0, .25); }
+.lj .avatar-picker .use-button:disabled { opacity: 0.45; }
+.lj .avatar-picker .bobble-label { display: none; }

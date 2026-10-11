@@ -1,0 +1,23 @@
+{
+  "caseTitle": "Unwanted messages",
+  "grievance": "She keeps texting me after I told her to stop.",
+  "phase": "statements",
+  "transcript": [
+    {
+      "id": "m-1",
+      "caseId": "fixture-case",
+      "authorHandle": "dave",
+      "role": "plaintiff",
+      "kind": "statement",
+      "text": "She keeps texting me after I told her to stop.",
+      "createdAt": "2026-10-10T14:00:00Z"
+    }
+  ],
+  "toneDial": 0.5,
+  "precedents": [],
+  "guiltyCounts": {},
+  "parties": {
+    "plaintiff": "dave",
+    "defendant": "maya"
+  }
+}

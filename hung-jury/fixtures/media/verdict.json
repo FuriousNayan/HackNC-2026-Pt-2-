@@ -1,0 +1,13 @@
+{
+  "caseId": "oat-milk",
+  "caseNumber": "HJ-2026-001",
+  "title": "The Case of the Missing Oat Milk",
+  "plaintiff": "dave",
+  "defendant": "maya",
+  "ruling": "guilty",
+  "headline": "Breakfast justice, served by the carton",
+  "sentence": "Replace the same carton today.",
+  "toneDial": 0.9,
+  "juryGuiltyPct": 29,
+  "safetyClosed": false
+}
